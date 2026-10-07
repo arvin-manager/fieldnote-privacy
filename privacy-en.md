@@ -20,11 +20,13 @@ You can export a complete backup and share PDFs or CSV files. These actions send
 
 Your operating system may include app data in device backups according to your system settings. Fieldnote does not provide automatic multi-device synchronization.
 
+Reminder previews may show the job title on your lock screen according to your device's notification-preview settings.
+
 ## Optional iCloud backups and signatures
 
 If you enable Pro automatic iCloud backup, Fieldnote submits complete backup ZIP files to your own Apple iCloud Drive account. These archives include work records, client contact details, private notes, images, customer signatures and PDFs. Backup is off by default. You may turn it off in More → Data & backup → iCloud backup. Turning it off does not delete archives already submitted. Apple handles iCloud storage and transfer under its own policies; check the Uploaded status before relying on a cloud copy. Automatic creation occurs while Fieldnote is open; it is not continuous multi-device synchronization or guaranteed scheduled background execution.
 
-The app retains recent uploaded cloud snapshots and may retain pending transfers. You can manage externally stored copies in their destination, including iCloud Drive. Cloud archives use the same unencrypted ZIP format as manual exports. Keep your Apple account secure and maintain a trusted backup copy. Pro expiration stops new automatic submissions; existing cloud archives can still be restored.
+The app retains recent uploaded cloud snapshots and may retain pending transfers. You can manage externally stored copies in their destination, including iCloud Drive. Cloud archives use the same unencrypted ZIP format as manual exports. Keep your Apple account secure and maintain a trusted backup copy. New automatic submissions stop when verified Pro access ends; existing cloud archives can still be restored.
 
 Handwritten signatures are stored as local PNG images with a signer name, signing time and a fingerprint of the approved work scope. Fieldnote does not perform identity verification or biometric analysis. Signatures can be included in customer PDFs you create and share. Changing the approved scope invalidates the signature for new documents; earlier PDF versions preserve their original signature. Removing a current signature does not delete previously exported files or retained PDF versions.
 
@@ -36,15 +38,13 @@ Google may process device information, IP addresses (which can indicate approxim
 
 Where Google requires privacy choices, the app displays the Google consent form and provides **More → Advertising privacy options** to revisit those choices. Advertising failures or unavailable consent do not block the app's work features. See [Google's privacy policy](https://policies.google.com/privacy) and [how Google uses information from apps](https://policies.google.com/technologies/partner-sites).
 
-Before publication, configure privacy messages in your actual AdMob account and complete App Store privacy disclosures based on the shipped SDK version and your AdMob configuration. This draft is not a completed App Store privacy declaration.
-
 ## Purchases
 
 Apple processes iOS subscriptions under its own privacy policy. Fieldnote uses verified StoreKit transactions to determine access to Pro features. Fieldnote does not receive or store payment card details. Your saved records and exports remain accessible when a subscription ends.
 
 ## Retention and deletion
 
-Work records combine dated notes and photos and are private by default. You may explicitly include a record in new customer work reports. Photo private notes are never included in customer documents. Client reference photos, their descriptions, and client private notes are for your own use and are excluded from customer documents and payment snapshots. These records and files remain in local storage and full backups, including recoverable removed items. Existing customer PDF versions do not change when you edit a later record or privacy setting.
+Dated work records combine notes and photos and are private by default. You may explicitly include a record in new customer work reports. Photos added directly through a job's Photos section are selected for work reports by default; you can turn off Include in report or mark a photo private before creating a report. Reports are sent outside the app only when you choose to share or export them. Photo private notes are never included in customer documents. Client reference photos, their descriptions, and client private notes are for your own use and are excluded from customer documents and payment snapshots. These records and files remain in local storage and full backups, including recoverable removed items. Existing customer PDF versions do not change when you edit a later record or privacy setting.
 
 Records remain on the device until you remove the app or its data. Jobs moved to Recently Deleted can be restored within the app and remain in backups. Removing a job photo from view preserves its original file for existing documents and backups. Removed photos can be restored from the job’s Photos section. Uninstalling the app removes its local data, subject to device backup settings. Exported files and device backups must be managed separately in their respective locations.
 

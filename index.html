@@ -8,19 +8,19 @@
 <p>Expense amounts, private notes and receipt photos are stored locally and included in complete backups. They are not included in customer PDFs. Deposit, payment and refund records describe money you report as received or returned; Fieldnote does not process those payments.</p>
 <p>You can export a complete backup and share PDFs or CSV files. These actions send the selected files to the destination you choose. Destination services apply their own policies. Backup ZIP files are not encrypted by Fieldnote and can contain client details, private notes and images. Keep backups in a trusted location.</p>
 <p>Your operating system may include app data in device backups according to your system settings. Fieldnote does not provide automatic multi-device synchronization.</p>
+<p>Reminder previews may show the job title on your lock screen according to your device&#x27;s notification-preview settings.</p>
 <h2>Optional iCloud backups and signatures</h2>
 <p>If you enable Pro automatic iCloud backup, Fieldnote submits complete backup ZIP files to your own Apple iCloud Drive account. These archives include work records, client contact details, private notes, images, customer signatures and PDFs. Backup is off by default. You may turn it off in More → Data &amp; backup → iCloud backup. Turning it off does not delete archives already submitted. Apple handles iCloud storage and transfer under its own policies; check the Uploaded status before relying on a cloud copy. Automatic creation occurs while Fieldnote is open; it is not continuous multi-device synchronization or guaranteed scheduled background execution.</p>
-<p>The app retains recent uploaded cloud snapshots and may retain pending transfers. You can manage externally stored copies in their destination, including iCloud Drive. Cloud archives use the same unencrypted ZIP format as manual exports. Keep your Apple account secure and maintain a trusted backup copy. Pro expiration stops new automatic submissions; existing cloud archives can still be restored.</p>
+<p>The app retains recent uploaded cloud snapshots and may retain pending transfers. You can manage externally stored copies in their destination, including iCloud Drive. Cloud archives use the same unencrypted ZIP format as manual exports. Keep your Apple account secure and maintain a trusted backup copy. New automatic submissions stop when verified Pro access ends; existing cloud archives can still be restored.</p>
 <p>Handwritten signatures are stored as local PNG images with a signer name, signing time and a fingerprint of the approved work scope. Fieldnote does not perform identity verification or biometric analysis. Signatures can be included in customer PDFs you create and share. Changing the approved scope invalidates the signature for new documents; earlier PDF versions preserve their original signature. Removing a current signature does not delete previously exported files or retained PDF versions.</p>
 <h2>Google advertising and privacy choices</h2>
 <p>Free users may see a Google AdMob banner on the More page. Pro subscriptions remove advertisements. Ads do not interrupt time tracking, editing, document creation or backup restoration. Fieldnote requests non-personalized ads after Google UMP confirms that ads may be requested; non-personalized ads can still involve data processing and consent requirements.</p>
 <p>Google may process device information, IP addresses (which can indicate approximate location), advertising interactions and other technical information for ad delivery, measurement and fraud prevention. Fieldnote does not supply job titles, client contacts, service addresses, private notes, photos or document contents as targeting data. Fieldnote does not request Apple&#x27;s App Tracking Transparency permission in this implementation.</p>
 <p>Where Google requires privacy choices, the app displays the Google consent form and provides <strong>More → Advertising privacy options</strong> to revisit those choices. Advertising failures or unavailable consent do not block the app&#x27;s work features. See <a href="https://policies.google.com/privacy">Google&#x27;s privacy policy</a> and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps</a>.</p>
-<p>Before publication, configure privacy messages in your actual AdMob account and complete App Store privacy disclosures based on the shipped SDK version and your AdMob configuration. This draft is not a completed App Store privacy declaration.</p>
 <h2>Purchases</h2>
 <p>Apple processes iOS subscriptions under its own privacy policy. Fieldnote uses verified StoreKit transactions to determine access to Pro features. Fieldnote does not receive or store payment card details. Your saved records and exports remain accessible when a subscription ends.</p>
 <h2>Retention and deletion</h2>
-<p>Work records combine dated notes and photos and are private by default. You may explicitly include a record in new customer work reports. Photo private notes are never included in customer documents. Client reference photos, their descriptions, and client private notes are for your own use and are excluded from customer documents and payment snapshots. These records and files remain in local storage and full backups, including recoverable removed items. Existing customer PDF versions do not change when you edit a later record or privacy setting.</p>
+<p>Dated work records combine notes and photos and are private by default. You may explicitly include a record in new customer work reports. Photos added directly through a job&#x27;s Photos section are selected for work reports by default; you can turn off Include in report or mark a photo private before creating a report. Reports are sent outside the app only when you choose to share or export them. Photo private notes are never included in customer documents. Client reference photos, their descriptions, and client private notes are for your own use and are excluded from customer documents and payment snapshots. These records and files remain in local storage and full backups, including recoverable removed items. Existing customer PDF versions do not change when you edit a later record or privacy setting.</p>
 <p>Records remain on the device until you remove the app or its data. Jobs moved to Recently Deleted can be restored within the app and remain in backups. Removing a job photo from view preserves its original file for existing documents and backups. Removed photos can be restored from the job’s Photos section. Uninstalling the app removes its local data, subject to device backup settings. Exported files and device backups must be managed separately in their respective locations.</p>
 <h2>Security</h2>
 <p>App data is stored in the operating system&#x27;s application container. Protect your device with a passcode and use a trusted backup destination. Fieldnote does not currently provide additional app-level encryption for exported ZIP files.</p>
@@ -38,11 +38,12 @@
 <h2>裝置上的工作資料</h2>
 <p>Fieldnote 是現場服務工作的管理工具，不需要註冊帳號。工單、客戶聯絡方式、服務地址、備註、工時、支出與付款紀錄、手寫簽名、照片及文件儲存在您的裝置。我們沒有接收這些工作資料的自建伺服器，也不將它們提供給廣告商作為定向資料。</p>
 <h2>權限與您選擇的分享</h2>
-<p>使用相機拍照及本機预约通知需要相應系統權限，可在裝置設定變更。系統照片選擇器只提供您選取的影像；聯絡人選擇器讓您選擇單一聯絡人並確認後儲存，不讀取整本通訊錄。將預約加入日曆時會顯示 Apple 編輯器供您確認或取消；這是獨立副本，並非持續同步。開啟地圖會將選定地址傳給地圖服務。</p>
+<p>使用相機拍照及本機預約通知需要相應系統權限，可在裝置設定變更。系統照片選擇器只提供您選取的影像；聯絡人選擇器讓您選擇單一聯絡人並確認後儲存，不讀取整本通訊錄。將預約加入日曆時會顯示 Apple 編輯器供您確認或取消；這是獨立副本，並非持續同步。開啟地圖會將選定地址傳給地圖服務。</p>
 <p>私人備註、支出收據影像和私人照片不會放入客戶 PDF，但會包含在完整備份。訂金、付款、退款是您手動登記的紀錄；Fieldnote 不替您收取客戶款項。PDF、CSV 或 ZIP 只有在您選擇分享或匯出時才傳到指定目的地，目的地服務有自己的政策。</p>
+<p>預約通知預覽可能依照裝置的通知預覽設定，在鎖定畫面顯示工單標題。</p>
 <h2>備份、iCloud 與簽名</h2>
 <p>完整 ZIP 備份包含工作資料、私人內容、附件和簽名，沒有 Fieldnote 額外加密。請保存於可信任的位置並保護裝置及 Apple 帳號。系統也可能依照您的裝置設定備份 App 資料。</p>
-<p>Pro 的自動 iCloud 備份預設關閉；只有明確開啟後才將完整 ZIP 提交至您自己的 iCloud Drive 帳號。備份在 App 開啟且處於前景時建立，不保證固定時間在背景執行，也不是多裝置同步。請確認顯示 Uploaded／已上傳後再依賴雲端副本。可在 More → Data &amp; backup → iCloud backup 關閉；關閉或 Pro 到期會停止新的自動提交，但不刪除既有雲端副本。您可在 iCloud 管理這些檔案。Apple 負責雲端儲存及傳輸。</p>
+<p>Pro 的自動 iCloud 備份預設關閉；只有明確開啟後才將完整 ZIP 提交至您自己的 iCloud Drive 帳號。備份在 App 開啟且處於前景時建立，不保證固定時間在背景執行，也不是多裝置同步。請確認顯示 Uploaded／已上傳後再依賴雲端副本。可在 More → Data &amp; backup → iCloud backup 關閉；關閉或已驗證的 Pro 權益結束後，會停止新的自動提交，但不刪除既有雲端副本。您可在 iCloud 管理這些檔案。Apple 負責雲端儲存及傳輸。</p>
 <p>手寫簽名以影像、簽署人姓名、時間及核准工作內容的指紋儲存。Fieldnote 不進行身分或生物辨識驗證。修改核准範圍會讓新文件中的簽名失效；先前的 PDF 版本仍保留原來內容。</p>
 <h2>Google 廣告與隱私選項</h2>
 <p>免費版在廣告及同意狀態允許時，可能在 More 頁顯示 Google AdMob 橫幅。Pro 移除廣告。廣告不打斷計時、編輯、文件建立或備份恢復。App 在 Google UMP 確認可以請求廣告後，才請求非個人化廣告；非個人化不代表沒有資料處理或不需要同意。</p>
@@ -50,8 +51,9 @@
 <h2>Apple 訂閱</h2>
 <p>訂閱購買、付款及恢復由 Apple App Store 處理。App 使用 Apple 驗證的訂閱狀態判斷 Pro 權益，不儲存信用卡資料。請在 Apple 帳號設定管理或取消訂閱；解除安裝不會自動取消訂閱。權益到期不會刪除您的工作資料。</p>
 <h2>保留、刪除與安全</h2>
+<p>帶日期的工作紀錄（備註與照片）預設為私人；可明確選擇納入新的工作報告。直接從工單 Photos 加入的照片預設會選入工作報告；建立報告前可關閉 Include in report 或設為私人。只有您選擇分享或匯出時，報告才會傳到 App 外。</p>
 <p>您可在 App 查看、編輯及匯出紀錄。Recently Deleted 中的工單，以及從畫面移除的照片和工作紀錄，可能為恢復、舊文件及完整備份而保留。先前匯出的 PDF 不會因後來修改隱私設定而自動改變。解除安裝會移除本機資料，但系統備份、iCloud 和已分享副本仍需在各目的地管理。</p>
-<p>資料位於作業系統的 App 容器。請使用装置密碼及可信任的備份位置；匯出的 ZIP 沒有額外 App 層級加密。</p>
+<p>資料位於作業系統的 App 容器。請使用裝置密碼及可信任的備份位置；匯出的 ZIP 沒有額外 App 層級加密。</p>
 <h2>您的權利與支援</h2>
 <p>依您的所在地，您可能享有存取、更正、刪除、取得副本、限制或反對處理、撤回同意，以及向主管機關申訴的權利。請透過上述信箱聯絡我們。本機工作資料只在您裝置上時，我們無法遠端讀取或刪除；Apple、Google 和外部分享目的地的資料需另向其管理。撤回廣告同意不會刪除工單。</p>
 <p>當您寄信給我們時，我們使用您提供的信箱及內容回答和處理請求，並僅在處理請求及法律義務需要時保留。請避免傳送不必要的客戶或敏感資料。提供您要求的功能與支援，在適用法律下可能依履行契約、處理支援請求的正當利益，以及選用功能或廣告的同意為依據；第三方自行說明其法律依據。</p>
@@ -65,9 +67,10 @@
 <h2>権限と任意の共有</h2>
 <p>カメラ撮影と予約のローカル通知には OS の権限が必要です。端末設定で変更できます。写真選択画面は選択した画像だけを提供し、連絡先選択画面は1人の情報を確認して保存するためのものです。アドレス帳全体は読み取りません。カレンダーに予定を追加する際は Apple の編集画面で確定またはキャンセルします。独立したコピーであり、継続的な同期ではありません。地図を開くと、選択した住所が地図サービスへ渡されます。</p>
 <p>非公開メモ、経費の領収書画像、非公開写真は顧客向け PDF に含めませんが、完全バックアップには含まれます。前受金、入金、返金は手動記録であり、Fieldnote が顧客から代金を徴収するわけではありません。PDF、CSV、ZIP は自分で選んだ共有先へ送られ、共有先の規約が適用されます。</p>
+<p>端末の通知プレビュー設定によっては、ロック画面に作業名が表示される場合があります。</p>
 <h2>バックアップ、iCloud と署名</h2>
 <p>完全 ZIP バックアップには顧客情報、非公開情報、画像、署名、書類が含まれ、Fieldnote による追加の暗号化はありません。信頼できる場所に保存し、端末と Apple アカウントを保護してください。OS の設定によって端末バックアップにも含まれることがあります。</p>
-<p>Pro の自動 iCloud バックアップは初期状態では無効です。有効にすると、完全 ZIP を自分の iCloud Drive アカウントへ送信します。作成はアプリが前面で動作している間に行われ、定時のバックグラウンド実行や複数端末の同期は保証しません。「Uploaded」の確認後にクラウドのコピーを利用してください。More → Data &amp; backup → iCloud backup で無効にできます。無効化または Pro の終了後は新規自動送信を停止しますが、送信済みファイルは削除しません。iCloud の保存と転送には Apple のポリシーが適用されます。</p>
+<p>Pro の自動 iCloud バックアップは初期状態では無効です。有効にすると、完全 ZIP を自分の iCloud Drive アカウントへ送信します。作成はアプリが前面で動作している間に行われ、定時のバックグラウンド実行や複数端末の同期は保証しません。「Uploaded」の確認後にクラウドのコピーを利用してください。More → Data &amp; backup → iCloud backup で無効にできます。無効化または検証済みの Pro 権限の終了後は新規自動送信を停止しますが、送信済みファイルは削除しません。iCloud の保存と転送には Apple のポリシーが適用されます。</p>
 <p>署名は PNG 画像、署名者名、時刻、承認された作業範囲の指紋として保存されます。本人確認や生体認証は行いません。承認範囲を変更すると新しい書類の署名は無効になりますが、過去の PDF には元の署名が残ります。</p>
 <h2>Google 広告と選択肢</h2>
 <p>無料版は、設定と同意状態が許可する場合に More ページで Google AdMob バナーを表示することがあります。Pro は広告を削除します。広告は計時、編集、書類作成、復元を中断しません。Google UMP が広告リクエストを許可した後に非パーソナライズ広告をリクエストします。非パーソナライズ広告でもデータ処理や同意が必要な場合があります。</p>
@@ -75,6 +78,7 @@
 <h2>Apple のサブスクリプション</h2>
 <p>購入、決済、復元は Apple App Store が処理します。Apple が検証した購読状態で Pro の権利を判定し、カード情報を保存しません。管理や解約は Apple アカウント設定で行ってください。アンインストールだけでは解約されません。購読終了後も業務データは削除されません。</p>
 <h2>保持、削除と安全</h2>
+<p>日付付きの作業記録（メモと写真）は既定で非公開で、新しい作業報告へ含めるか選択できます。作業の Photos から直接追加した写真は、既定で作業報告に選択されます。報告作成前に Include in report をオフにするか、非公開に設定してください。報告は共有またはエクスポートを選択したときだけアプリ外へ送信されます。</p>
 <p>アプリで記録を確認、編集、エクスポートできます。Recently Deleted 内の作業や、画面から除いた写真・記録は、復元、過去の書類、完全バックアップのため残る場合があります。以前に共有した PDF は、後からの編集や非公開設定では変わりません。アンインストールでローカルデータは削除されますが、OS のバックアップ、iCloud、共有済みファイルは別途管理が必要です。</p>
 <p>データは OS のアプリ領域に保存されます。端末のパスコードと信頼できる保存先を使用してください。エクスポート ZIP に追加のアプリ独自暗号化はありません。</p>
 <h2>権利とお問い合わせ</h2>
@@ -90,9 +94,10 @@
 <h2>권한 및 사용자가 선택한 공유</h2>
 <p>카메라 촬영과 예약의 로컬 알림에는 시스템 권한이 필요하며 기기 설정에서 변경할 수 있습니다. 시스템 사진 선택기는 선택한 이미지만 제공합니다. 연락처 선택기는 한 사람의 정보를 선택하고 확인하여 저장하며 전체 주소록을 읽지 않습니다. 일정 내보내기는 Apple 편집기에서 확인 또는 취소하는 독립적인 사본이며 지속적인 동기화가 아닙니다. 지도를 열면 선택한 주소가 지도 서비스로 전달됩니다.</p>
 <p>비공개 메모, 지출 영수증 사진, 비공개 사진은 고객용 PDF에서 제외되지만 전체 백업에는 포함됩니다. 계약금, 입금, 환불은 사용자가 직접 입력한 기록이며 Fieldnote가 고객 결제를 처리하지 않습니다. PDF, CSV, ZIP은 사용자가 선택한 공유 대상으로 전송되며 해당 서비스의 정책이 적용됩니다.</p>
+<p>기기의 알림 미리보기 설정에 따라 잠금 화면에 작업 제목이 표시될 수 있습니다.</p>
 <h2>백업, iCloud 및 서명</h2>
 <p>전체 ZIP 백업에는 고객 정보, 비공개 메모, 첨부파일, 서명과 문서가 포함되며 Fieldnote가 추가로 암호화하지 않습니다. 신뢰할 수 있는 저장소를 사용하고 기기와 Apple 계정을 보호하세요. 기기 설정에 따라 운영체제의 백업에 앱 정보가 포함될 수 있습니다.</p>
-<p>Pro의 자동 iCloud 백업은 기본적으로 꺼져 있습니다. 사용자가 켜면 전체 ZIP이 본인의 iCloud Drive 계정에 제출됩니다. 백업 생성은 앱이 전면에서 실행되는 동안 이루어지며 정해진 시간의 백그라운드 실행이나 여러 기기의 동기화를 보장하지 않습니다. 클라우드 사본에 의존하기 전에 Uploaded 상태를 확인하세요. More → Data &amp; backup → iCloud backup에서 끌 수 있습니다. 끄거나 Pro가 만료되면 새 자동 제출은 중단되지만 기존 파일은 삭제되지 않습니다. 클라우드 파일은 iCloud에서 관리하며 저장과 전송에는 Apple 정책이 적용됩니다.</p>
+<p>Pro의 자동 iCloud 백업은 기본적으로 꺼져 있습니다. 사용자가 켜면 전체 ZIP이 본인의 iCloud Drive 계정에 제출됩니다. 백업 생성은 앱이 전면에서 실행되는 동안 이루어지며 정해진 시간의 백그라운드 실행이나 여러 기기의 동기화를 보장하지 않습니다. 클라우드 사본에 의존하기 전에 Uploaded 상태를 확인하세요. More → Data &amp; backup → iCloud backup에서 끌 수 있습니다. 끄거나 검증된 Pro 권한이 종료되면 새 자동 제출은 중단되지만 기존 파일은 삭제되지 않습니다. 클라우드 파일은 iCloud에서 관리하며 저장과 전송에는 Apple 정책이 적용됩니다.</p>
 <p>서명은 이미지, 서명자 이름, 시각, 승인된 작업 범위의 지문과 함께 저장됩니다. 신원 확인이나 생체 인증은 하지 않습니다. 승인 범위 변경 시 새 문서에 사용할 서명은 무효가 되지만 이전 PDF의 원래 서명은 유지됩니다.</p>
 <h2>Google 광고 및 개인정보 선택</h2>
 <p>무료 사용자는 설정과 동의 상태가 허용할 때 More 화면에서 Google AdMob 배너를 볼 수 있습니다. Pro는 광고를 제거합니다. 광고가 시간 기록, 편집, 문서 생성 또는 복원을 중단하지 않습니다. Google UMP가 광고 요청을 허용한 후 비개인 맞춤 광고를 요청합니다. 비개인 맞춤 광고에도 정보 처리나 동의가 필요할 수 있습니다.</p>
@@ -100,6 +105,7 @@
 <h2>Apple 구독</h2>
 <p>구독 구매, 결제 및 복원은 Apple App Store에서 처리합니다. Apple이 검증한 구독 상태로 Pro 권한을 확인하며 카드 정보를 저장하지 않습니다. 구독 관리와 취소는 Apple 계정 설정에서 하세요. 앱 삭제만으로 구독이 취소되지 않습니다. 구독 만료 후에도 업무 자료는 삭제되지 않습니다.</p>
 <h2>보관, 삭제 및 보안</h2>
+<p>날짜가 있는 작업 기록(메모와 사진)은 기본적으로 비공개이며 새 작업 보고서에 포함할지 선택할 수 있습니다. 작업의 Photos에서 직접 추가한 사진은 기본적으로 보고서에 선택됩니다. 보고서를 만들기 전에 Include in report를 끄거나 비공개로 설정할 수 있습니다. 보고서는 공유 또는 내보내기를 선택할 때만 앱 외부로 전달됩니다.</p>
 <p>앱에서 자료를 확인, 수정 및 내보낼 수 있습니다. Recently Deleted의 작업과 화면에서 제거된 사진 및 기록은 복원, 이전 문서, 전체 백업을 위해 보관될 수 있습니다. 이미 내보낸 PDF는 이후 편집이나 비공개 설정 변경으로 바뀌지 않습니다. 앱을 삭제하면 로컬 정보는 제거되지만 시스템 백업, iCloud 및 공유한 사본은 해당 위치에서 별도로 관리해야 합니다.</p>
 <p>정보는 운영체제의 앱 영역에 저장됩니다. 기기 암호와 신뢰할 수 있는 백업 위치를 사용하세요. 내보낸 ZIP에는 앱 자체의 추가 암호화가 없습니다.</p>
 <h2>사용자의 권리 및 지원</h2>
